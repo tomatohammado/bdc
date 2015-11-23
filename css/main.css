@@ -302,7 +302,8 @@ section .wrapper {
 /* Hero Section*/
 #hero {
     background-image: url("../img/hero.jpg");
-    height: 678px;
+    /*height: 678px;*/
+    height: 800px;
     background-size: cover;
 
 }
@@ -355,3 +356,12 @@ section .wrapper {
     line-height: 1.5em;
 }
 
+
+
+/* Lookbook Section */
+
+#lookbook {
+    background-image: url("../img/store_bg.png");
+    background-size: cover;
+    height: 800px;
+}
