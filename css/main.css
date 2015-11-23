@@ -287,17 +287,22 @@ textarea {
 */
 
 
-body {
-    /*color: #fff;*/
-}
+/* General Styles */
 
 section {
     height: 500px;
 }
 
+span {
+    background-color: #F8CBCC;
+}
+
+/*
 section .wrapper {
     margin-left: 300px;
-}
+}*/
+
+
 
 /* Hero Section*/
 #hero {
@@ -305,7 +310,6 @@ section .wrapper {
     /*height: 678px;*/
     height: 800px;
     background-size: cover;
-
 }
 
 #hero nav {
@@ -324,9 +328,9 @@ section .wrapper {
 }
 
 #hero ul li {
-    font-size: 18px;
+    font-size: 24px;
     /*background-color: #F8CBCC;*/
-    margin-bottom: 15px;
+    margin-bottom: 1.5em;
     text-align: center;
 }
 
@@ -343,7 +347,10 @@ section .wrapper {
 
 #about .wrapper {
     margin-top: 50px;
-    color: #fff;
+    margin-left: 300px;
+    /* the mock has white text sometimes and black the other, so deferring to black*/
+    /*color: #fff;*/
+    width: 70vw;
 }
 
 #about span {
@@ -364,4 +371,29 @@ section .wrapper {
     background-image: url("../img/store_bg.png");
     background-size: cover;
     height: 800px;
+}
+
+
+/*Contact Section */
+
+#contact {
+    height: 900px;
+    font-size: 21px;
+}
+
+#contact .wrapper {
+    margin-top: 100px;
+    text-align: center;
+}
+
+#contact ul {
+    list-style: none;
+}
+
+#contact ul li {
+    display: inline-block;
+}
+
+#contact img {
+    width: 30px;
 }
