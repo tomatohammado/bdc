@@ -1,4 +1,4 @@
-/*! HTML5 Boilerplate v5.2.0 | MIT License | https://html5boilerplate.com/ */
+! HTML5 Boilerplate v5.2.0 | MIT License | https://html5boilerplate.com/ */
 
 /*
  * What follows is the result of much research on cross-browser styling.
@@ -286,10 +286,53 @@ textarea {
 *
 */
 
+
+section {
+    height: 500px;
+}
+
+
+/* Hero Section*/
 .hero {
     background-image: url("../img/hero.jpg");
-    /*background-color: #f00;*/
-    height: 500px;
+    height: 678px;
     background-size: cover;
 
+}
+
+.hero nav {
+    position: fixed;
+    top: 75px;
+    left: 25px;
+}
+
+.hero .logo {
+    height: 120px;
+    margin-bottom: 15px;
+}
+
+.hero ul {
+    list-style: none;
+}
+
+.hero ul li {
+    font-size: 18px;
+    /*background-color: #F8CBCC;*/
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.hero li a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #F8CBCC;
+    padding: 5px;
+}
+
+
+
+/* About Section */
+
+.about {
+    margin-left: 100px;
 }
