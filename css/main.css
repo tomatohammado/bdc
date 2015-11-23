@@ -287,42 +287,49 @@ textarea {
 */
 
 
+body {
+    /*color: #fff;*/
+}
+
 section {
     height: 500px;
 }
 
+section .wrapper {
+    margin-left: 300px;
+}
 
 /* Hero Section*/
-.hero {
+#hero {
     background-image: url("../img/hero.jpg");
     height: 678px;
     background-size: cover;
 
 }
 
-.hero nav {
+#hero nav {
     position: fixed;
     top: 75px;
     left: 25px;
 }
 
-.hero .logo {
+#hero .logo {
     height: 120px;
     margin-bottom: 15px;
 }
 
-.hero ul {
+#hero ul {
     list-style: none;
 }
 
-.hero ul li {
+#hero ul li {
     font-size: 18px;
     /*background-color: #F8CBCC;*/
     margin-bottom: 15px;
     text-align: center;
 }
 
-.hero li a {
+#hero li a {
     text-decoration: none;
     color: #fff;
     background-color: #F8CBCC;
@@ -333,6 +340,18 @@ section {
 
 /* About Section */
 
-.about {
-    margin-left: 100px;
+#about .wrapper {
+    margin-top: 50px;
+    color: #fff;
 }
+
+#about span {
+    background-color: #F8CBCC;
+}
+
+#about p {
+    margin-bottom: 75px;
+    margin-top: 50px;
+    line-height: 1.5em;
+}
+
