@@ -289,6 +289,12 @@ textarea {
 
 /* General Styles */
 
+
+body {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+
 section {
     height: 500px;
 }
