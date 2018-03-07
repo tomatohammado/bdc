@@ -343,7 +343,7 @@ section .wrapper {
 #hero li a {
     text-decoration: none;
     color: #fff;
-    background-color: #F8CBCC;
+    /* background-color: #F8CBCC; */
     padding: 5px;
 }
 
